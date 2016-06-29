@@ -8,7 +8,7 @@ Windows compilation requires dmc, dmd and dub. OSX compilation requires gcc, dmd
 
 	dub init helloworld
 	
-Add meld to the project dependencies:
+Add Werl Engine to the project dependencies:
 ```d
 	comming soon
 ```
