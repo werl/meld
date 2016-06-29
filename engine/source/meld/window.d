@@ -10,7 +10,7 @@ import std.string;
 
 import meld.fileWatcher;
 
-import std.c.stdio : fputs, fputc, stderr;
+import core.stdc.stdio : fputs, fputc, stderr;
 
 extern(C) nothrow void glfwPrintError(int error, const(char)* description) {
   fputs(description, stderr);
